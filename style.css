@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #dbdbdb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.box1 {
+    width: 400px;
+    height: 550px;
+    background: #03bb85;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.box1 p {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 180px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.box1 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.btn1 {
+    display: block;
+    padding: 10px;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: whitesmoke;
+    border-style: solid;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+.box2 {
+    width: 700px;
+    height: 550px;
+    background: whitesmoke;
+    margin-left: -00px;
+}
+
+.box2 p {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: #03bb85;
+    padding-top: 50px;
+}
+
+.redes {
+    text-align: center;
+    padding-top: -30px;
+}
+
+.redes a {
+    font-size: 30px;
+    color: #03bb85;
+    border: 3px solid #03bb85;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 7px;
+    height: 45px;
+    width: 40px;
+    text-decoration: none;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: -10px;
+}
+
+.form input {
+    background-color: #dbdbdb;
+    width: 350px;
+    height: 40px;
+    margin-top: 0.1rem;
+    border: none;
+}
+
+.btn2 {
+    display: block;
+    padding: 12px;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: #03bb85;
+    border-style: solid;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #03bb85;
+    color: white;
+    cursor: pointer;
+    margin-top: 1.2rem;
+}
